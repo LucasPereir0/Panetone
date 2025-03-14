@@ -1,6 +1,6 @@
 function arredondar(valor){
  let arrendondado = Math.round(valor);
-    if (arredondado === 0){
+    if (arredondar === 0){
         return 1;
     }
 
@@ -17,7 +17,7 @@ function arredondar(valor){
         this.farinha =((250/440) * this.tamanho).toFixed(2);
         this.fermento =((5/440) * this.tamanho).toFixed(2);
         this.leite = Math.round((60/440) * this.tamanho);
-        this.ovo = arrendondar((2/440) * this.tamanho);
+        this.ovo = arredondar((2/440) * this.tamanho);
         this.manteiga =((50/440) * this.tamanho).toFixed(2);
         this.acucar =((70/440) * this.tamanho).toFixed(2);
         this.baunilha = Math.round((5/440) * this.tamanho);
@@ -63,6 +63,7 @@ function arredondar(valor){
 
         return(this.precoFarinha + this.precoFermento + this.precoLeite + this.precoOvo + this.precoManteiga + this.precoAcucar + this.precoBaunilha + this.precoChocolate + this.precoBrigadeiro + this.precoAvela + this.precoDoceleite + this.precoSal)
     }
+    
     calcularPrecoTotal() {
         return (this.calcularPreco()) * this.quantidade
     }

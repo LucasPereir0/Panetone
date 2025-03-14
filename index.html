@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="index.js" defer type="module"></script>
     <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Panetone Trufado</title>
@@ -37,7 +38,7 @@
     
     <br>
     <br>
-    <button onclick="Calcular()">Calcular</button>
+    <button id="calcular">Calcular</button>
 
     <div id="resg"></div><br>
     </div>
@@ -51,19 +52,16 @@
     <h1>Resultados:</h1>
     <div class="grupo-resultado">
         <label>Preço:</label>
-         
+        <div id="preco"></div>
     </div>
     <div class="grupo-resultado">
         <label>Quantidade de ingredientes:</label>
+        <div id="quantidadeIgredientes"></div>
 
     </div><div class="grupo-resultado">
         <label>Volume do panetone:</label>
-
-    </div>
-    <div id="resposta">
-        <div id="quantidadeIgredientes"></div>
         <div id="volumePanetone"></div>
-        <div id="preco"></div>
+        
     </div>
 
     </div>
