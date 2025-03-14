@@ -5,8 +5,8 @@ export default class Panetone{
         this.massa = massa
     }
     calcularVolume(){
-        this.densidade = (this.raio / this.altura).toFixed(1)
-        if((this.densidade != 0.6) || (this.densidade != 0.7) || (this.densidade != 0.8)){
+        this.densidade = (this.raio / this.altura)
+        if(0.6 <= this.densidade >= 0.8){
             console.log("Valor inválido, densidade muito alta ou muito baixa!!!!")
         }else{
             this.volume = this.massa / this.densidade
