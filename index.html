@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Panetone Trufado</title>
+</head>
+<body>
+    <header>
+       <img src="imagem_picatone-removebg-preview.webp" alt=""> <div id="Titulo">
+        <h1>Panetone Trufado</h1></div><br><br>
+        <div></div>
+    </header>
+
+    <br>
+    <br>
+    <div class="elementos">
+        <label for="Pequeno"></label>
+        <br>
+    <input type="text" id="Pequeno" placeholder="Quant. de Trufado"><br>
+    
+    <br>
+    <label for="medio"></label><br>
+    <input type="text" id="medio" placeholder="Massa do Panetone"><br>
+    <br>
+
+    <label for="Grande"></label><br>
+    <input type="text" id="Grande" placeholder="Altura do Trufado"><br>
+    <br>
+    <br>
+
+    <input type="text" id="Raio" placeholder="Raio do Trufado"><br>
+    
+    <br>
+    <br>
+    <button onclick="Calcular()">Calcular</button>
+
+    <div id="resg"></div><br>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="resultado">
+    <h1>Resultados:</h1>
+    <div class="grupo-resultado">
+        <label>Preço:</label>
+         
+    </div>
+    <div class="grupo-resultado">
+        <label>Quantidade de ingredientes:</label>
+
+    </div><div class="grupo-resultado">
+        <label>Volume do panetone:</label>
+
+    </div>
+    <div id="resposta">
+        <div id="quantidadeIgredientes"></div>
+        <div id="volumePanetone"></div>
+        <div id="preco"></div>
+    </div>
+
+    </div>
+
+    
+</body>
+</html>
